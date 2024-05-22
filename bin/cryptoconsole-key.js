@@ -1,5 +1,5 @@
 import { program } from "commander";
-import { key } from "../commands/key";
+import key  from "../commands/key.js";
 program
     .command('set')
     .description('Set API Key -- Get at https://nomics.com')
